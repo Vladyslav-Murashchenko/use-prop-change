@@ -1,0 +1,30 @@
+{
+  "name": "use-set-prop",
+  "source": "src/useSetProp.js",
+  "main": "dist/useSetProp.js",
+  "module": "dist/useSetProp.module.js",
+  "unpkg": "dist/useSetProp.umd.js",
+  "version": "1.0.0",
+  "description": "React hook for simplifying nested state manipulations",
+  "scripts": {
+    "build": "microbundle --external none",
+    "dev": "microbundle watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladislavMurashchenko/use-set-prop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladislavMurashchenko/use-set-prop/issues"
+  },
+  "homepage": "https://github.com/VladislavMurashchenko/use-set-prop#readme",
+  "devDependencies": {
+    "microbundle": "^0.12.0"
+  },
+  "dependencies": {
+    "ramda": "^0.27.0"
+  }
+}
