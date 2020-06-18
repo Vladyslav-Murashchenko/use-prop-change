@@ -1,5 +1,5 @@
 type Dict<T> = { [i: string]: T };
-type SetState<T> = (arg: T) => void;
+type SetState<T> = React.Dispatch<React.SetStateAction<T>> | ((arg: T) => void);
 
 interface SetStatePropForArray {
   (prop: number): SetState<any>;
