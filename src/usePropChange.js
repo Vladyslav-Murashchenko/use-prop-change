@@ -8,13 +8,13 @@ const lensByPropType = {
   Array: lensPath,
 };
 
-const useSetProp = (setState) => {
+const usePropChange = (setState) => {
   return function (prop, maybeValue) {
     const lens = lensByPropType[type(prop)];
 
     if (!lens) {
       throw new TypeError(
-        "Incorrect first argument of useSetProp result function. First argument can be only number, string or array."
+        "Incorrect first argument of handleProp function, returned from usePropChange hook. First argument can be only number, string or array."
       );
     }
 
@@ -32,4 +32,4 @@ const useSetProp = (setState) => {
   };
 };
 
-export default useSetProp;
+export default usePropChange;
