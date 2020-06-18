@@ -58,11 +58,11 @@ export const PersonForm = () => {
 But you don't need understand them to use this hook.
 
 For example above we can replace
-```
+```javascript
 const handlePersonProp = usePropChange(setPerson);
 ```
 to
-```
+```javascript
 const handlePersonProp = (name) => (value) => {
   setPerson((prevState) => ({
     ...prevState,
