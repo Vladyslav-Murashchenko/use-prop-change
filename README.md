@@ -42,11 +42,11 @@ export const PersonForm = () => {
 
   return (
     <form onSubmit={/* do something */}>
-      <input value={person.name} onChange={forInput(setPersonProp("name"))} />
-      <input value={person.age} onChange={forInput(setPersonProp("age"))} />
+      <input value={person.name} onChange={forInput(handlePersonProp("name"))} />
+      <input value={person.age} onChange={forInput(handlePersonProp("age"))} />
       <Friends
         friends={person.friends}
-        onFriendsChange={setPersonProp("friends")}
+        onFriendsChange={handlePersonProp("friends")}
       />
     </form>
   );
