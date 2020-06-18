@@ -4,7 +4,7 @@
   "main": "dist/usePropChange.js",
   "module": "dist/usePropChange.module.js",
   "unpkg": "dist/usePropChange.umd.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React hook for simplifying nested state manipulations",
   "scripts": {
     "build": "microbundle",
@@ -16,7 +16,7 @@
     "url": "git+https://github.com/VladislavMurashchenko/use-prop-change.git"
   },
   "author": "Vladislav Murashchenko",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/VladislavMurashchenko/use-prop-change/issues"
   },
@@ -27,5 +27,13 @@
   },
   "dependencies": {
     "react": "^16.13.1"
-  }
+  },
+  "keywords": [
+    "front-end",
+    "react",
+    "forms",
+    "form",
+    "state",
+    "hooks"
+  ]
 }
